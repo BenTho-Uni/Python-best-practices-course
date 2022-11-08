@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def area_circ(r_in):
     """Calculate the area of a circle with given radius.
 
@@ -10,9 +11,9 @@ def area_circ(r_in):
 
     kreis = np.pi * r_in**2
     print(
-        """The area of a circle with radius 
+        """The area of a circle with radius
         r = {:3.2f}cm is A = {:4.2f}cm2."""
-        .format(r_in ,kreis)
+        .format(r_in, kreis)
     )
 
     return kreis
